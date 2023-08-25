@@ -90,7 +90,13 @@ COMMON
             font-weight: normal;
             font-style: normal;
             }
-    
+            @font-face {
+                font-family: "comic";
+                src: 
+                 url('fonts/comic.woff') format('woff');
+                font-weight: normal;
+                font-style: normal;
+                }
 
             
 *{
@@ -135,7 +141,8 @@ body{
     font-weight: 200;
     font-family: Josefin sans;
     font-weight: bolder;
-    background: url(../images/bg-image-three.jpg); /*HEADER BACKGROUND IMAGE*/
+    /*background: url(../images/bg-image-three.jpg); HEADER BACKGROUND IMAGE*/
+    background-color: #101213;
     background-position: center;
     background-size: cover;
 }
@@ -167,7 +174,32 @@ body{
     z-index: 2;
     top: 100%;
 }
-
+.big-text {
+    font-size: 5em; /* Adjust as needed */
+    font-family: comic;
+    font-weight: bold;
+    color:#cdcfd1;
+    text-align: left;
+    width: 50%; /* To cover half of the screen */
+    position: absolute;
+    top: 30%; /* Vertically align the text to the center */
+    transform: translateY(-50%); /* Adjust vertically for centering */
+    transform: translateX(20%); /* Adjust vertically for centering */
+    left: 0; /* Align to the left */
+}
+.big-text1 {
+    font-size: 3em; /* Adjust as needed */
+    font-family: comic;
+    font-weight: bold;
+    color:#cdcfd1;
+    text-align: left;
+    width: 50%; /* To cover half of the screen */
+    position: absolute;
+    top: 30%; /* Vertically align the text to the center */
+    transform: translateY(-50%); /* Adjust vertically for centering */
+    transform: translateX(20%); /* Adjust vertically for centering */
+    left: 0; /* Align to the left */
+}
 
 .menu-bar-line{
     width: 30px;
@@ -696,11 +728,13 @@ COMMON
 INDEX ONE
 ====================================*/
 #index-one .new-release{
-    height: auto;
-    width:230px;
-    position: fixed;
-    right: 2%;
-    bottom: 1%;
+    transform: translateX(140%);
+   /* height: 1462px; */
+    object-fit: cover;
+    border-radius: 10px;
+    /* width: 1033px; */
+    /* position: fixed; */
+    align: right;
     background: rgb(240,240,240,0.1);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
@@ -710,9 +744,11 @@ INDEX ONE
 }
 
 #index-one .new-release img{
+    object-fit: cover;
     height: auto;
     border-radius: 10px;
     width: 100%;
+    
 }
 #index-one .new-release .song-details{
 padding: 10px;
