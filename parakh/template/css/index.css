@@ -141,21 +141,25 @@ body{
     font-weight: 200;
     font-family: Josefin sans;
     font-weight: bolder;
-    /*background: url(../images/bg-image-three.jpg); HEADER BACKGROUND IMAGE*/
+    background: url(../images/music-bg.JPG); 
     background-color: #101213;
     background-position: center;
     background-size: cover;
 }
 .navigation{
     width: 100%;
+    height: 5%;
     position: fixed;
+    /* background-color: #000000; */
     font-family: Josefin sans;
     left: 0;
     top: 0;
     z-index: 3;
-    padding: 20px;
+    /* height: 30px; */
+    /* padding: 30px; */
    
     font-size: 20px;
+    background-color: #000000;
 }
 .menu-bar{
     position: absolute;
@@ -200,6 +204,9 @@ body{
     transform: translateX(20%); /* Adjust vertically for centering */
     left: 0; /* Align to the left */
 }
+
+/* div.outer { position: relative; height: 24px; } */
+div.outer img { position: absolute; right: 0; bottom: 0; }
 
 .menu-bar-line{
     width: 30px;
