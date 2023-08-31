@@ -144,6 +144,9 @@ body{
     background: url(../images/music-bg.JPG); /*HEADER BACKGROUND IMAGE*/
     background-position: center;
     background-size: cover;
+    /* position: relative; */
+    /* top: -0.03%; */
+    /* top: -30px; */
 }
 .navigation{
     width: 100%;
@@ -212,7 +215,13 @@ body{
 }
 
 /* div.outer { position: relative; height: 24px; } */
-div.outer img { position: absolute; right: 5%; bottom: 5%;}
+div.outer img 
+{ 
+    position: absolute; 
+    right: 5%; 
+    bottom: 5%;
+    
+}
 /* object-fit: cover; } */
 
 a{
