@@ -214,6 +214,45 @@ body{
     left: 0; /* Align to the left */
 }
 
+@media screen and (max-width: 1300px) {
+    .big-text {
+        scale: 0.5;
+        top: 5%;
+    }
+
+    .big-text1 {
+        font-size: 1.5rem;
+        top: 3%;
+        left: 40%;
+    }
+
+    div.outer img {
+        margin-right: calc(45% - 300px);
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .big-text1 {
+        top: 7%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    div.outer img {
+        scale: 80%;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .big-text1 {
+        top: 8%;
+    }
+
+    div.outer img {
+        scale: 60%;
+    }
+}
+
 /* div.outer { position: relative; height: 24px; } */
 div.outer img 
 { 
