@@ -3,37 +3,42 @@ COMMON
 ====================================*/
    @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @font-face {
-        font-family: "monument";
-        src: url('fonts/monumentextended-regular-webfont.woff2') format('woff2'),
-        url('fonts/monumentextended-regular-webfont.woff') format('woff');
-        font-weight: normal;
-        font-style: normal;
-        }
+font-family: "monument";
+src: url('fonts/monumentextended-regular-webfont.woff2') format('woff2'),
+url('fonts/monumentextended-regular-webfont.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+}
 
 @font-face {
-            font-family: "camel";
-            src: url('fonts/camel.woff2') format('woff2'),
-            url('fonts/camel.woff') format('woff');
-            font-weight: normal;
-            font-style: normal;
-            }
+font-family: "camel";
+src: url('fonts/camel.woff2') format('woff2'),
+url('fonts/camel.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+}
 
 @font-face {
-            font-family: "night";
-            src: url('fonts/tuesdaynight-regular-webfont.woff2') format('woff2'),
-             url('fonts/tuesdaynight-regular-webfont.woff') format('woff');
-            font-weight: normal;
-            font-style: normal;
-            }
-            @font-face {
-                font-family: "comic";
-                src: 
-                 url('fonts/comic.woff') format('woff');
-                font-weight: normal;
-                font-style: normal;
-                }
+font-family: "night";
+src: url('fonts/tuesdaynight-regular-webfont.woff2') format('woff2'),
+  url('fonts/tuesdaynight-regular-webfont.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+    font-family: "comic";
+    src: 
+      url('fonts/comic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
 
-
+    @font-face {
+      font-family: "bazinga";
+      src: url('css/fonts/Bazinga-Regular.otf');
+      font-weight: normal;
+      font-style: normal;
+      }
 
 
 
@@ -85,7 +90,86 @@ body {
   transform: translateX(20%); /* Adjust vertically for centering */
   left: 0; /* Align to the left */
 }
+.big-text2 {
+  font-size: 5em; 
+  font-family: bazinga;
+  font-weight: bold;
+  color:#cdcfd1;
+  text-align: right;
 
+  position: absolute;
+
+  top: 2%; 
+  right: 0%;
+
+}
+
+.links{
+  font-size: 2.4em; 
+  font-family: bazinga;
+  font-weight: bold;
+  color:#cdcfd1;
+  text-align: right;
+  text-decoration: none;
+
+  position: absolute;
+
+  top: 16%; 
+  right: 0%;
+  
+
+}
+.links{
+  font-size: 2.4em; 
+  font-family: bazinga;
+  font-weight: bold;
+  color:#cdcfd1;
+  text-align: right;
+  text-decoration: none;
+  letter-spacing: 0.05em;
+
+  position: absolute;
+
+  top: 16%; 
+  right: 1%;
+  
+
+}
+.links2{
+  font-size: 2.4em; 
+  letter-spacing: 0.05em;
+  font-family: bazinga;
+  font-weight: bold;
+  color:#cdcfd1;
+  text-align: right;
+  text-decoration: none;
+
+  position: absolute;
+
+  top: 26%; 
+  right: 1%;
+  
+
+}
+.links3{
+  font-size: 2.4em; 
+  letter-spacing: 0.05em;
+  font-family: bazinga;
+  font-weight: bold;
+  color:#cdcfd1;
+  text-align: right;
+  text-decoration: none;
+
+  position: absolute;
+
+  top: 36%; 
+  right: 1%;
+  
+
+}
+a:hover{
+  color: #FDF16C;
+}
 
 
 
