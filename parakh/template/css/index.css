@@ -97,6 +97,12 @@ COMMON
                 font-weight: normal;
                 font-style: normal;
                 }
+                @font-face {
+                    font-family: "bazinga";
+                    src: url('fonts/Bazinga-Regular.otf');
+                    font-weight: normal;
+                    font-style: normal;
+                    }
 
             
 *{
@@ -931,7 +937,7 @@ ABOUT ONE
     opacity: .7;
 }
 #about-one .signature{
-    font-family: night;
+    font-family: poppins;
     text-align: center;
     padding: 40px;
     padding-top: 0px;
@@ -1521,11 +1527,13 @@ opacity: .9;
         padding: 0px;
         opacity: .8;
         z-index: 2;
-        font-family: night;
+        font-family: bazinga;
         text-align: center;
-        color:rgb(240,240,240,.9);
-        padding: 20px;
-        font-size: 48px;
+        color: #FFF8EC;
+        -webkit-text-stroke-color: #0E0E0E;
+        -webkit-text-stroke-width: 0.03em;
+        padding: 0.4em;
+        font-size: 4em;
 }
 #quizzes .blog-info{
     display: flex;
