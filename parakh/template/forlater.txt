@@ -1,0 +1,316 @@
+  <!-- SONG -->
+    <div class="song fade-up">
+
+        <div class="song-img">
+            <img src="images/nar.webp" alt="song">
+        </div>
+    
+        <div class="song-details">
+            <div class="song-details-content">
+            <div class="song-name">Gogineni Naren</div>
+            <div class="artist-name">Aluminati</div>
+            </div>
+            <div class="music-player">
+             
+                <div class="play-song mouse">
+                    <img src="images/LogoComic.webp" style="width: 60px; height: 15px;"  >
+                    <!--   DATA-SONG AND DATA-AUDIO VALUE SHOULD MATCH   -->
+                    <audio data-audio="blindinglights">
+                        <source src="music/The-Weeknd-Blinding-Lights-_Lyrics_.ogg" type="audio/ogg">
+                        <source src="music/The Weeknd - Blinding Lights (Lyrics).mp3" type="audio/mp3">
+                        </audio> 
+                </div>
+                <div class="download-song mouse">
+                    <a href="music/The Weeknd - Blinding Lights (Lyrics).mp3"  download="Blinding Lights - QUIZ CLUB IIT PATNA"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+        <!-- SONG -->
+
+    <!-- SONG -->
+<div class="song fade-up">
+
+    <div class="song-img">
+        <img src="images/kes.webp" alt="song">
+    </div>
+
+    <div class="song-details">
+        <div class="song-details-content">
+        <div class="song-name">Keshav Kumar Jha</div>
+        <div class="artist-name">Aluminati</div>
+        </div>
+        <div class="music-player">
+         
+            <div class="play-song mouse">
+                <img src="images/LogoComic.webp" style="width: 60px; height: 15px;" >
+                <!--   DATA-SONG AND DATA-AUDIO VALUE SHOULD MATCH   -->
+                <audio data-audio="blindinglights">
+                    <source src="music/The-Weeknd-Blinding-Lights-_Lyrics_.ogg" type="audio/ogg">
+                    <source src="music/The Weeknd - Blinding Lights (Lyrics).mp3" type="audio/mp3">
+                    </audio> 
+            </div>
+            <div class="download-song mouse">
+                <a href="music/The Weeknd - Blinding Lights (Lyrics).mp3"  download="Blinding Lights - QUIZ CLUB IIT PATNA"></a>
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- SONG -->
+
+
+
+
+        <!-- SONG -->
+<div class="song fade-up">
+    <div class="song-img">
+        <img src="images/pus.webp" alt="song">
+    </div>
+    <div class="song-details">
+        <div class="song-details-content">
+        <div class="song-name">Pushpendra Nagle</div>
+        <div class="artist-name">Aluminati</div>
+        </div>
+        <div class="music-player"> 
+            <div class="play-song mouse">
+                <!-- DATA-SONG AND DATA-AUDIO SHOULD EXACTLY BE SAME -->
+                <img src="images/LogoComic.webp" style="width: 60px; height: 15px;"  >
+                <!--   DATA-SONG AND DATA-AUDIO VALUE SHOULD MATCH   -->
+                <audio data-audio="killmonger">
+                    <source src="music/killmonger.ogg" type="audio/ogg">
+                    <source src="music/killmonger.mp3" type="audio/mp3">
+                    </audio> 
+            </div>
+            <div class="download-song">
+                <a href="music/killmonger.mp3"  download="KillMonger - QUIZ CLUB IIT PATNA"></a>
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- SONG -->
+
+
+        <!-- SONG -->
+<div class="song fade-up">
+
+
+    <div class="song-img">
+        <img src="images/KP.webp" alt="song">
+    </div>
+
+    <div class="song-details">
+        <div class="song-details-content">
+        <div class="song-name">Khushi Prasad</div>
+        <div class="artist-name">Ex-President</div>
+        </div>
+        <div class="music-player">
+         
+            <div class="play-song mouse">
+                <img src="images/LogoComic.webp" style="width: 60px; height: 15px;"   >
+                <!--   DATA-SONG AND DATA-AUDIO VALUE SHOULD MATCH   -->
+                <audio data-audio="coolblue">
+                    <source src="music/old-town-road.ogg" type="audio/ogg">
+                    <source src="music/old-town-road.mp3" type="audio/mp3">
+                    </audio> 
+            </div>
+
+
+            <div class="download-song">
+                <a href="music/old-town-road.mp3"  download="Cool Blue - QUIZ CLUB IIT PATNA"></a>
+            </div>
+        </div>
+    </div>
+    
+</div>
+<div class="song fade-up">
+
+
+    <div class="song-img">
+        <img src="images/abhi.webp" alt="song">
+    </div>
+
+    <div class="song-details">
+        <div class="song-details-content">
+        <div class="song-name">Abhimanyu Singh Bisht</div>
+        <div class="artist-name">Ex- President</div>
+        </div>
+        <div class="music-player">
+         
+            <div class="play-song mouse">
+                <img src="images/LogoComic.webp" style="width: 60px; height: 15px;"  >
+               
+                <!--   DATA-SONG AND DATA-AUDIO VALUE SHOULD MATCH   -->
+                <audio data-audio="alone">
+                    <source src="music/old-town-road.ogg" type="audio/ogg">
+                    <source src="music/old-town-road.mp3" type="audio/mp3">
+                    </audio> 
+            </div>
+
+
+
+
+            <div class="download-song">
+                <a href="music/old-town-road.mp3"  download="Alone - QUIZ CLUB IIT PATNA"></a>
+            </div>
+        </div>
+    </div>
+    
+</div>
+<div class="song fade-up">
+
+
+    <div class="song-img">
+        <img src="images/kush.webp" alt="song"  data-song="blindinglights" class="play">
+    </div>
+
+   
+</div>
+    <!-- SONG -->
+ <div class="song-details">
+        <div class="song-details-content">
+        <div class="song-name">Khushi Shah</div>
+        <div class="artist-name">Cushy!</div>
+        </div>
+        <div class="music-player">
+         
+            <div class="play-song mouse">
+                <img src="images\LogoComic.webp" style="width: 60px; height: 15px;"   >
+               
+                <!--   DATA-SONG AND DATA-AUDIO VALUE SHOULD MATCH   -->
+                <audio data-audio="whatspoppin">
+                    <source src="music/The-Weeknd-Blinding-Lights-_Lyrics_.ogg" type="audio/ogg">
+                    <source src="music/The Weeknd - Blinding Lights (Lyrics).mp3" type="audio/mp3">
+                    </audio> 
+            </div>
+
+
+
+
+            <div class="download-song">
+                <a href="music/The Weeknd - Blinding Lights (Lyrics).mp3"  download="What's Poppin- QUIZ CLUB IIT PATNA"></a>
+            </div>
+        </div>
+    </div>
+    
+           <!-- SONG -->
+<div class="song fade-up">
+
+
+    <div class="song-img">
+        <img src="images/sau.webp" alt="song">
+    </div>
+
+    <div class="song-details">
+        <div class="song-details-content">
+        <div class="song-name">Soumitra Upadhyay</div>
+        <div class="artist-name">100!</div>
+        </div>
+        <div class="music-player">
+         
+            <div class="play-song mouse">
+                <img src="images/LogoComic.webp" style="width: 60px; height: 15px;"  >
+               
+                <audio data-audio="thebox">
+                    <source src="music/old-town-road.ogg" type="audio/ogg">
+                    <source src="music/old-town-road.mp3" type="audio/mp3">
+                    </audio> 
+            </div>
+            <div class="download-song">
+                <a href="music/old-town-road.mp3"  download="The BOX - QUIZ CLUB IIT PATNA"></a>
+            </div>
+
+
+
+
+        </div>
+    </div>
+    
+</div>
+    <!-- SONG -->
+
+
+
+
+        <!-- SONG -->
+
+    <!-- SONG -->
+
+
+
+
+        <!-- SONG -->
+
+    <!-- SONG -->
+
+
+
+
+        <!-- SONG -->
+<div class="song fade-up">
+
+
+    <div class="song-img">
+        <img src="images/ama.webp" alt="song">
+    </div>
+
+    <div class="song-details">
+        <div class="song-details-content">
+        <div class="song-name">Ammar Ahmad</div>
+        <div class="artist-name">Maksad nahi bhula hoon!</div>
+        </div>
+        <div class="music-player">
+         
+            <div class="play-song mouse">
+                <img src="images/LogoComic.webp" style="width: 60px; height: 15px;"   >
+                <!--   DATA-SONG AND DATA-AUDIO VALUE SHOULD MATCH   -->
+                <audio data-audio="darkfire">
+                    <source src="music/The-Weeknd-Blinding-Lights-_Lyrics_.ogg" type="audio/ogg">
+                    <source src="music/The Weeknd - Blinding Lights (Lyrics).mp3" type="audio/mp3">
+                    </audio> 
+            </div>
+
+
+            <div class="download-song">
+                <a href="music/The Weeknd - Blinding Lights (Lyrics).mp3"  download="Dark Fire - QUIZ CLUB IIT PATNA"></a>
+            </div>
+        </div>
+    </div>
+    
+</div>
+    <!-- SONG -->
+
+
+
+
+        <!-- SONG -->
+
+    <!-- SONG -->
+
+
+    
+        <!-- SONG -->
+
+        <div class="song fade-up">
+    <div class="song-img">
+        <img src="images/avnish.webp" alt="song">
+    </div>
+    <div class="song-details">
+        <div class="song-details-content">
+            <div class="song-name">Avnish Aryan</div>
+            <div class="artist-name">Not Parth</div>
+        </div>
+        <div class="music-player">
+         
+            <div class="play-song mouse">
+                <img src="images/LogoComic.webp" style="width: 60px; height: 15px;"  >
+                <!--   DATA-SONG AND DATA-AUDIO VALUE SHOULD MATCH   -->
+                <audio data-audio="theotherside">
+                    <source src="music/killmonger.ogg" type="audio/ogg">
+                    <source src="music/killmonger.mp3" type="audio/mp3">
+                    </audio> 
+            </div>
+
+        </div>
+    </div>
+    
+</div>
