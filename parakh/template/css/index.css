@@ -21,7 +21,7 @@ ABOUT-ONE
 SONGS-ONE
 BLOG-ONE
 CONTACT-ONE
-BLOG-SINGLE
+quizzes
 -----------
 ==========
 
@@ -35,7 +35,7 @@ ABOUT-ONE
 SONGS-ONE
 BLOG-ONE
 CONTACT-ONE
-BLOG-SINGLE
+quizzes
 ----------
 ==========
 
@@ -47,7 +47,7 @@ COMMON
 SONGS-ONE
 BLOG-ONE
 CONTACT-ONE
-BLOG-SINGLE
+quizzes
 ----------
 ==========
 
@@ -1423,10 +1423,10 @@ CONTACT ONE
 
 
  /*====================================
-BLOG-SINGLE-ONE
+quizzes-ONE
 ====================================*/
 
-#blog-single{
+#quizzes{
     height: auto;
     min-height: 100vh;
     width: 100%;
@@ -1434,28 +1434,28 @@ BLOG-SINGLE-ONE
     background: #080808;
     color: rgb(240,240,240);
 }
-#blog-single .center{
+#quizzes .center{
  text-align: center;
  align-items: center;
  
 }
-#blog-single .blog-img{
+#quizzes .blog-img{
     width: 65%;
     height:auto;
   position: relative;
 }
-#blog-single .blog-img img{
+#quizzes .blog-img img{
   height: auto;
   position: relative;
   width: 100%;
 }
-#blog-single .blog-info{
+#quizzes .blog-info{
     width: 100%;
     display: flex;
     align-items: center;
     justify-content:center;
 }
-#blog-single .blog-info-content{
+#quizzes .blog-info-content{
     width: 50%;
     display: flex;
     align-items: center;
@@ -1465,14 +1465,14 @@ BLOG-SINGLE-ONE
     padding-right: 0;
     font-family: poppins
 }
-#blog-single .blog-duration,.blog-type{
+#quizzes .blog-duration,.blog-type{
 font-size: 18px;
 display: flex;
 align-items: center;
 justify-content: center;
 opacity: .9;
 }
-#blog-single .blog-text{
+#quizzes .blog-text{
     height: auto;
     padding: 30px;
     padding-left: 0;
@@ -1486,24 +1486,24 @@ opacity: .9;
   margin: 10px;
   margin-top: 0px;
 }
-#blog-single .blog-heading{
+#quizzes .blog-heading{
     font-size: 30px;
     opacity: .8;
 }
-#blog-single .center-para{
+#quizzes .center-para{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
-#blog-single .para{
+#quizzes .para{
     margin-top: 30px;
     opacity: .6;
 }
-#blog-single .italic{
+#quizzes .italic{
     opacity: .6;
 }
-#blog-single .blog-text-img{
+#quizzes .blog-text-img{
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -1513,11 +1513,11 @@ opacity: .9;
     position: relative;
     margin-top: 30px;
 }
-#blog-single .blog-text-img img{
+#quizzes .blog-text-img img{
     width: 95%;
     height: auto;
 }
-#blog-single .signature{
+#quizzes .signature{
         padding: 0px;
         opacity: .8;
         z-index: 2;
@@ -1527,7 +1527,7 @@ opacity: .9;
         padding: 20px;
         font-size: 48px;
 }
-#blog-single .blog-info{
+#quizzes .blog-info{
     display: flex;
     justify-content: space-between;
     padding-top: 0px;
@@ -1535,20 +1535,20 @@ opacity: .9;
     font-size: 16px;
     opacity: .6;
 }
-#blog-single .blog-duration{
+#quizzes .blog-duration{
     font-size: 16px;
 }
 
-#blog-single .share-links ul{
+#quizzes .share-links ul{
     display: flex;
 
 }
-#blog-single .share-links ul li{
+#quizzes .share-links ul li{
     padding-right: 15px;
     font-size: 20px;
 }
  /*====================================
-BLOG-SINGLE-ONE
+quizzes-ONE
 ====================================*/
 
 
@@ -1952,40 +1952,40 @@ CONTACT-ONE
 
 
  /*====================================
-BLOG-SINGLE-ONE
+quizzes-ONE
 ====================================*/
 
-#blog-single .blog-img{
+#quizzes .blog-img{
     width: 90%;
     height:auto;
   position: relative;
 }
-#blog-single .blog-img img{
+#quizzes .blog-img img{
   height: auto;
   position: relative;
   width: 100%;
 }
 
-#blog-single .blog-text{
+#quizzes .blog-text{
     padding: 0px;
     width: 90%;
 }
-#blog-single .para{
+#quizzes .para{
     margin-top: 20px;
     font-size: 16px;
 }
-#blog-single .italic{
+#quizzes .italic{
   font-size: 16px;
 }
-#blog-single .blog-text-img{
+#quizzes .blog-text-img{
    flex-direction: column;
 }
-#blog-single .signature{
+#quizzes .signature{
     font-size: 40px;
 }
 
  /*====================================
-BLOG-SINGLE-ONE
+quizzes-ONE
 ====================================*/
 
 
@@ -2172,28 +2172,28 @@ CONTACT-ONE
 
 
  /*====================================
-BLOG-SINGLE-ONE
+quizzes-ONE
 ====================================*/
 
-#blog-single .blog-img{
+#quizzes .blog-img{
     width: 70%;
     height:auto;
   position: relative;
 }
-#blog-single .blog-img img{
+#quizzes .blog-img img{
   height: auto;
   position: relative;
   width: 100%;
 }
 
-#blog-single .blog-text{
+#quizzes .blog-text{
     padding: 10px;
     width: 70%;
 }
-#blog-single .para{
+#quizzes .para{
     margin-top: 20px;
 }
-#blog-single .italic{
+#quizzes .italic{
     opacity: .8;
   font-size: 16px;
 }
@@ -2201,7 +2201,7 @@ BLOG-SINGLE-ONE
 
 
  /*====================================
-BLOG-SINGLE-ONE
+quizzes-ONE
 ====================================*/
 
 
